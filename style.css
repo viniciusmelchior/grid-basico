@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 0.5fr 4fr 1.2fr 1fr;
+}
+
+.site-logo{
+    background-color: burlywood;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.site-header{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.site-main {
+    background-color: cadetblue;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.section-one {
+    background-color: cyan;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.section-two {
+    background-color: darkkhaki;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.site-aside {
+    background-color: darkslategray;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.site-footer {
+    background-color: firebrick;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
